@@ -1,0 +1,29 @@
+class Images {
+  static String path = "assets/images/";
+  static String logo02 = "${path}logo_2.svg";
+  static String welcome01 = "${path}welcome_01.svg";
+  static String call = "${path}call.svg";
+  static String avatar = "${path}man.svg";
+  static String tick = "${path}tick.svg";
+  static String logout = "${path}logout.svg";
+  static String labProfile = "${path}lab_profile.svg";
+  static String calendarMonth = "${path}calendar_month.svg";
+  static String search = "${path}search.svg";
+  static String callIcon = "${path}call_icon.svg";
+  static String passbook = "${path}passbook.svg";
+  static String searchRight = "${path}search_right.svg";
+  static String scan = "${path}scan.svg";
+  static String shape01 = "${path}shape_01.svg";
+  static String dd = "${path}dd.svg";
+  static String sb = "${path}sb.svg";
+  static String rd = "${path}rd.svg";
+  static String chitty = "${path}chitty.svg";
+  static String loans = "${path}loans.svg";
+  static String currencyWithBox = "${path}currency_with_box.svg";
+  static String contactIcon = "${path}contact_icon.svg";
+  static String icCalendar = "${path}ic_calendar.svg";
+  static String icPayment = "${path}payment.svg";
+  static String icAgent = "${path}agent.svg";
+  static String icActivate = "${path}activate.svg";
+  static String icDeactivate = "${path}deactivate.svg";
+}

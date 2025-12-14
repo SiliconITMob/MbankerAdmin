@@ -1,0 +1,113 @@
+name: mbankeradmin
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.10+1
+  shared_preferences: ^2.2.3
+  http: ^1.2.1
+  flutter_easyloading: ^3.0.5
+  numeric_keyboard: ^1.1.0
+  store_redirect: ^2.0.2
+  image_picker: ^1.1.0
+  intl: ^0.20.2
+  image: ^4.1.7
+  geolocator: ^14.0.2
+  url_launcher: ^6.2.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^6.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo_2.svg
+    - assets/images/welcome_01.svg
+    - assets/images/call.svg
+    - assets/images/tick.svg
+    - assets/images/man.svg
+    - assets/images/logout.svg
+    - assets/images/lab_profile.svg
+    - assets/images/calendar_month.svg
+    - assets/images/search.svg
+    - assets/images/scan.svg
+    - assets/images/shape_01.svg
+    - assets/images/currency_with_box.svg
+    - assets/images/chitty.svg
+    - assets/images/sb.svg
+    - assets/images/rd.svg
+    - assets/images/loans.svg
+    - assets/images/dd.svg
+    - assets/images/search_right.svg
+    - assets/images/call_icon.svg
+    - assets/images/passbook.svg
+    - assets/images/contact_icon.svg
+    - assets/images/ic_calendar.svg
+    - assets/images/agent.svg
+    - assets/images/payment.svg
+    - assets/images/activate.svg
+    - assets/images/deactivate.svg
+  fonts:
+    - family: Poppins-Regular
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+    - family: Poppins-SemiBold
+      fonts:
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+    - family: Poppins-Bold
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+
+dependency_overrides:
+  # Override to newer versions compatible with Dart 3.9
+  win32: ^5.14.0
+  typed_data: ^1.4.0
